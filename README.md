@@ -1,21 +1,22 @@
 # Biblioteca_db   - Aplicação com Banco de dados 
 
-Implementação do exemplo clássico da Biblioteca salvando os dados em um banco de dados *sqlite*.
+*Implementação do exemplo clássico da Biblioteca salvando os dados em um banco de dados *sqlite*.
 
 Implementação do exemplo clássico da Biblioteca salvando os dados em um banco de dados sqlite.
 
 As tabelas do projeto são:
 
-usuarios(id, nome)
+**usuarios** *(id, nome)*
 
-autores(id, nome)
+**autores** *(id, nome)*
 
-editoras(id, nome)
-livros(id, titulo, autor_id, editora_id, ano_publicacao, edicao, disponivel)
+**editoras** *(id, nome)*
 
-emprestimos(id, usuario_id, data)
+**livros** *(id, titulo, autor_id, editora_id, ano_publicacao, edicao, disponivel)*
 
-emprestimos_livros(emprestimo_id, livro_id, data_devolucao)
+**emprestimos** *(id, usuario_id, data)*
+
+**emprestimos_livros** *(emprestimo_id, livro_id, data_devolucao)*
 
 
 Em dupla, implemente a aplicação com menu de opções de cadastro e listagem para cada tabela do modelo.
